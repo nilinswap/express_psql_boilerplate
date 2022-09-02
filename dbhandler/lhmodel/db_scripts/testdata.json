@@ -1,0 +1,50 @@
+{
+  "users":[{
+    "email": "ataylor@gmail.com",
+    "phone": 5849482929,
+    "password": "password",
+    "role": "artist",
+    "first_name": "Aaron",
+    "last_name": "Taylor",
+    "dp_s3_url": "aws.amazon.com/dp/ataylor",
+    "subdomain": "ataylor",
+    "description": " impressionist and a romantic",
+    "bank_details": {
+      "ifsc_code": "999999",
+      "bank_name": "sbi",
+      "account_number":"3423423442"
+    }
+  },
+  {
+    "email": "johndoe@gmail.com",
+    "phone": 9849482929,
+    "password": "password",
+    "role": "user",
+    "first_name": "John",
+    "last_name": "Doe",
+    "dp_s3_url": null
+  }],
+  "artifacts":[{
+      "artist_email":"ataylor@gmail.com",
+      "title": "Falling Sky",
+      "description": "When river turns red, God wraths, sky falls. It is a depiction of a time when God ended the war",
+      "price":  40.4,
+      "is_exclusive": true
+  },
+  {
+    "artist_email":"ataylor@gmail.com",
+    "title": "smile of eyes",
+    "description": "Lips can fake smile, eyes can't",
+    "price":  50.9,
+    "is_exclusive": false
+  }],
+  "cart":[{
+    "buyer_email": "johndoe@gmail.com",
+    "artifact_id": 1
+  },
+  {
+    "buyer_email": "johndoe@gmail.com",
+    "artifact_id": 2
+  }]
+  
+}
